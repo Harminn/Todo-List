@@ -8,6 +8,8 @@ const Form = () => {
   const [editingValue, setEditingValue] = useState("");
   const [completionStatus, setCompletionStatus] = useState({});
 
+  console.log("This is learning React");
+
   useEffect(() => {
     const storedData = localStorage.getItem("formData");
     const storedCompletionStatus = localStorage.getItem("completionStatus");
